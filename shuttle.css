@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background: url('spacec.png');
+    overflow-y: hidden;
+}
+.space{
+    height: 300px;
+    width: 300px;
+    background: url('mars.png');
+    position: absolute;
+    left: 70%;
+    bottom: 40%;
+    background-repeat: repeat-x;
+    animation: upd 8s Linear infinite;
+}
+.shut{
+    height: 300px;
+    width: 500px;
+    background: url('shut1.png');
+    position: absolute;
+    left: 2%;
+    bottom: 60%;
+    background-repeat: repeat-x;
+    animation: rm 4s Linear infinite;
+
+}
+.Rocket2{
+    height: 500px;
+    width: 300px;
+    background: url('thor.png');
+    position: absolute;
+    left: 31%;
+    bottom: 1%;
+    background-repeat: repeat-y;
+    animation: fly 14s Linear infinite;
+    
+}
+.Rocket1{
+    height: 300px;
+    width: 300px;
+    background: url('jet.png');
+    position: absolute;
+    left: 2%;
+    bottom: 92%;
+    background-repeat: repeat-y;
+    animation: fly2 18s Linear infinite;   
+}
+.all{
+
+    height: 300px;
+    width: 400px;
+    background: url('kkr.png');
+    position: absolute;
+    left: 60%;
+    bottom: 60%;
+    background-repeat: repeat-x;
+    animation: backup 15s Linear infinite;
+
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.wrapper h2{
+    padding: 0;
+    margin: 0;
+    color: rgb(248, 252, 27);
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 80px;
+}
+.wrapper h3{
+    color: rgb(247, 173, 16);
+    font-size: 35px;
+    margin: 0;
+    line-height: 35px;
+}
+
+.wrapper h4{
+    color:#eb1506;
+}
+.wrapper a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    transition: 1.2s;
+    align-content: center;
+    justify-content: center;
+}
+.wrapper a:hover{
+    background:#eb1506 ;
+    color: #0fe43d;
+    box-shadow: 0 0 105px #ebc806 ;
+
+}
+span:before{
+    content: ' ';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{
+        content: 'Coder';
+    }
+    20%{
+        content: 'Developer';
+    }
+    40%{
+        content: 'Cricketer';
+    }
+    60%{
+        content: 'Learner';
+    }
+    80%{
+        content: 'Traveller';
+    }
+    100%{
+        content: 'Analyst';
+    }
+}
+
+
+@keyframes backup{
+    100%{transform:translateX(-1500px)}
+}
+@keyframes rm{
+    100%{transform:translateX(1500px)}
+}
+@keyframes fly2{
+    100%{transform:translateY(1150px)}
+}
+@keyframes fly{
+    100%{transform:translateY(-1150px)}
+}
+@keyframes upd{
+    100%{transform:translateY(40px)}
+    75%{transform:translateY(-40px)}
+    50%{transform:translateY(40px)}
+    25%{transform:translateY(-40px)}
+
+
+}
