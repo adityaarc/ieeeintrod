@@ -342,7 +342,7 @@ justify-content: space-between;
     #desc4{
       width: 55%;
       height: 50vh;
-      background-image: url(p41.jpg);
+      background-image: url(p46.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -355,21 +355,21 @@ justify-content: space-between;
     @keyframes p4chnage{
       
       0%,100%{
-        background-image: url(p41.jpg);
+        background-image: url(p46.png);
       }
   
       25%{
-        background-image: url(p42.jpg);
+        background-image: url(p47.png);
         
       }
     
       50%{
-        background-image: url(p43.jpg);
+        background-image: url(p46.png);
         
       }   
       
       75%{
-        background-image: url(p44.jpg);
+        background-image: url(p47.png);
         
       }
     
