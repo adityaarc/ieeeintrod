@@ -237,6 +237,10 @@ justify-content: space-between;
 
 @keyframes p1chnage{
   
+  0%,100%{
+    background-image: url(p11.png);
+  }
+  
   25%{
     background-image: url(p12.png);
     
@@ -254,9 +258,6 @@ justify-content: space-between;
     
   }
 
-  0%,100%{
-    background-image: url(p11.png);
-  }
 
 }
 
